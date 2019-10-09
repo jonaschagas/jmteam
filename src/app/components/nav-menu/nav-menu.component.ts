@@ -11,5 +11,10 @@ export class NavMenuComponent implements OnInit {
 
   ngOnInit() {
   }
+  showMenu() {
+    if (window.innerWidth > 750) { return;}
+    const menu = document.getElementById('main-nav-menu');
+    menu.style.display = menu.style.display === 'none' ?   'block' : 'none';
+  }
 
 }

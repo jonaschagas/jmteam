@@ -8,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class TestComponent implements OnInit {
 
   imageUrlArray = [
-    '../../../assets/img/IMG1.jpg',
-    '../../../assets/img/IMG2.jpg',
-    '../../../assets/img/IMG3.jpg'];
+    '../../../assets/img/42.png',
+    '../../../assets/img/24.jpg',
+    '../../../assets/img/26.jpg',
+    '../../../assets/img/28.jpg',
+    '../../../assets/img/46.jpg'];
   constructor() { }
 
   ngOnInit() {

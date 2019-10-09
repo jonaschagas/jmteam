@@ -1,31 +1,33 @@
 <i id="menu-burger" class="fa fa-bars" (click)="showMenu()"></i>
 <nav id="main-nav-menu">
   <div id="system-logo">
+    <a routerLink="/home">
     <img alt="Jmteam Jiu Jitsu Lifestyle" src="../../../assets/img/Logo_jmteam.png" />
+  </a>
   </div>
   <div class="group">
     <ul>
-      <li>
+      <li (click)="showMenu()">
         <i class="fa fa-home"></i>
         <a routerLink="/home">Home</a>
       </li>
-      <li>
+      <li (click)="showMenu()">
         <i class="fa fa-play"></i>
         <a routerLink="/historia">História</a>
       </li>
-      <li>
+      <li (click)="showMenu()">
         <i class="fa fa-calendar"></i>
         <a routerLink="/horario">Horários</a>
       </li>
-      <li>
+      <li (click)="showMenu()">
         <i class="fa fa-credit-card"></i>
         <a routerLink="/planos">Planos</a>
       </li>
-      <li>
+      <li (click)="showMenu()">
         <i class="fa fa-camera-retro"></i>
         <a routerLink="/galeria">Galeria</a>
       </li>
-      <li>
+      <li (click)="showMenu()">
         <i class="fa fa-whatsapp"></i>
         <a routerLink="/contato">Contato</a>
       </li>
